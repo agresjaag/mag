@@ -1,10 +1,3 @@
-Siemano! Jasna sprawa. Poniżej znajdziesz gotowy kod Pythona, który wykorzystuje bibliotekę streamlit oraz supabase-py (oficjalny klient Supabase), aby obsłużyć Twoją bazę danych.
-
-Zakładam, że masz już projekt na Supabase z tabelami kategorie oraz produkty połączonymi relacją, tak jak na Twoim schemacie.
-
-Kod aplikacji (app.py)
-Python
-
 import streamlit as st
 from supabase import create_client, Client
 
