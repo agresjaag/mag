@@ -1,4 +1,3 @@
-@@ -1,88 +1,103 @@
 import streamlit as st
 from supabase import create_client, Client
 from datetime import datetime
